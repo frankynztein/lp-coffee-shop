@@ -6,10 +6,10 @@ import { FaYoutube, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const links = [
   {href:"/", name: "Home"},
-  {href:"/", name: "Explore"},
-  {href:"/", name: "About"},
-  {href:"/", name: "Menu"},
-  {href:"/", name: "Contact"},
+  // {href:"/", name: "Explore"},
+  {href:"#about", name: "About"},
+  {href:"#menu", name: "Menu"},
+  // {href:"/", name: "Contact"},
 ];
 
 

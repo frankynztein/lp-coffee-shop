@@ -25,7 +25,8 @@ const Hero = () => {
           {/* Separator */}
           <Separator/>
           <p className="lead font-light max-w-[300px] md:max-w-[430px] xl:max-w-[560px] mb-4">Experience the joy of exceptional coffee in our cozy space, where every cup is crafted with passion and warmth</p>
-          <button className="btn">Our menu</button>
+          {/* <button className="btn">Our menu</button> */}
+          <a href="#menu" className="btn flex justify-center items-center">Our menu</a>
         </div>
       </div>
     </section>
